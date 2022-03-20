@@ -3,8 +3,6 @@
 
 using namespace std;
 
-void printStatistics(const string&);
-
 int main(){
 
     // finding substrings and characters in a string
