@@ -13,6 +13,9 @@ class Quadratic {
 public:
 	Quadratic(const double& = 1, const double& = 0, const double& = 0, const char& = 'x');
 
+	Quadratic& operator + (Quadratic& const);
+	Quadratic& operator - (Quadratic& const);
+
 	void solve(const double&, const double&, const double&);
 
 private:
@@ -24,3 +27,4 @@ private:
 
 
 #endif // !QUADRATIC_H
+
