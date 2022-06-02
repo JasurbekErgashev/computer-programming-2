@@ -30,3 +30,20 @@ ostream& operator << (ostream& output, const Quadratic& q) {
 	output << q.a << q.ch << "^2 + " << q.b << q.ch << " + " << q.c << " = 0";
 	return output;
 }
+
+
+Quadratic& Quadratic::operator + (Quadratic& const q1) {
+	Quadratic q2;
+	q2.a = a + q1.a;
+	q2.b = b + q1.b;
+	q2.c = c + q1.c;
+	return q2;
+}
+
+Quadratic& Quadratic::operator - (Quadratic& const q1) {
+	Quadratic q2;
+	q2.a = a - q1.a;
+	q2.b = b - q1.b;
+	q2.c = c - q1.c;
+	return q2;
+}
