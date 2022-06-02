@@ -1,13 +1,15 @@
 <h1> Operators Overloading</h1>
  operators that can not be overloaded
-
- (dot.) operator (myObj.SetName(); for instance)
- </br>
- (.*) pointer to member operator (alternative for "->"; myObj->setSomething());
- </br>
- ::Unary operator (cout << ::x << x; referring global and local x respectively)
- </br>
- ?: Ternary operator (x > 5 ? "Haha": "Hehe") :)) vahava
+<hr>
+<ol>
+ <li>(dot.) operator (myObj.SetName(); for instance)
+ </br></li>
+ <li>(.*) pointer to member operator (alternative for "->"; myObj->setSomething());
+ </br></li>
+ <li>::Unary operator (cout << ::x << x; referring global and local x respectively)
+ </br></li>
+ <li>?: Ternary operator (x > 5 ? "Haha": "Hehe") :)) vahava</li>
+</ol>
 </hr>
  <h1>MUST HAVE RULES</h1>
 <ul>
